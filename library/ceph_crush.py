@@ -1,4 +1,3 @@
-library/ceph_crush.py
 #!/usr/bin/python
 
 # Copyright (c) 2018 Red Hat, Inc.
