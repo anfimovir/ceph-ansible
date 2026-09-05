@@ -1,3 +1,4 @@
+library/ceph_crush.py
 #!/usr/bin/python
 
 # Copyright (c) 2018 Red Hat, Inc.
@@ -47,7 +48,7 @@ options:
         required: true
     containerized:
         description:
-            - Weither or not this is a containerized cluster. The value is
+            - Whether or not this is a containerized cluster. The value is
             assigned or not depending on how the playbook runs.
         required: false
         default: None
